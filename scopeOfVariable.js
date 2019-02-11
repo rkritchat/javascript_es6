@@ -27,8 +27,8 @@
 }
 
 /**
- * Avoid to use var at all because it is global variable even you 
- * decare it in block it can access other block also
+ * Avoid to use variable with var at all, because it is global variable even you
+ * decare in block it can access other block also
  */
  {
      var test = 'this is var.. avoid to use this'
@@ -37,7 +37,7 @@
 
  {
      /**
-      * variable test aviable here also becases it is var
+      * variable test aviable here also becases it decare with var !!!
       */
      console.log(test)
  }

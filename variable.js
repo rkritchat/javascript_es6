@@ -21,7 +21,6 @@ arrays.forEach(e=>{
     //console.log(e)
 });
 
-
 /**
  * Object
  */
